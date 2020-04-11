@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-image: linear-gradient(to right, #ff5b58,dodgerblue);
+}
+.nav-ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-image:linear-gradient(to right,red,dodgerblue) ;
+    height: 50px;
+}
+.nav-ul li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+.nav-ul li:last-child{
+    border-right: none;
+}
+.nav-ul li>a:hover{
+    background-color: #2eff67;
+}
+.nav-ul li>a{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.two-menu {
+    display: none;
+    width: 80px;
+    list-style-type: none;
+}
+.two-menu li{
+    color: black;
+}
+.nav-ul li:hover .two-menu{
+    display: block;
+}
+.post-div{
+    margin-top: 5%;
+    display: block;
+    text-align: center;
+}
+.div-upload {
+    margin-left: 15%;
+    width: 50%;
+    height: auto;
+    border: 0.6em dashed lightgray;
+    text-align: center;
+}
+.div-upload p{
+    color: lightgray;
+    display: inline-block;
+}
+.div-upload img {
+    max-width: 98%;
+    width: auto;
+    max-height: 98%;
+    display: inline-block;
+}
+.upload-file {
+    margin-top: 2%;
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+
+.upload-file input[type="file"]{
+    border: solid transparent;
+    opacity: 0;
+    position: absolute;
+    font-size: 100px;
+    filter: alpha(opacity=0);
+    cursor: pointer;
+}
+.ul-details {
+    list-style-type: none;
+    margin-left: 15%;
+}
+.ul-details li{
+    display: block;
+    margin-top: 2%;
+}
+.ul-details h2{
+    color:white;
+    font-family: "华文彩云", sans-serif;
+}
+.ul-details textarea {
+    width: 1000px;
+    height: 200px;
+    background-image: linear-gradient(to right,wheat,lightgoldenrodyellow);
+    border-radius: 0.6em;
+}
+.ul-details input[type="text"]{
+    width: 1000px;
+    height: 50px;
+    background-image: linear-gradient(to right,wheat,lightgoldenrodyellow);
+    border-radius: 0.6em;
+}
+.div-button{
+    display: block;
+    margin-left: 60%;
+}
+input[type="submit"]{
+    background-color: indianred;
+    border-radius: 0.6em;
+    font-size: 1.6vw;
+    width: 100px;
+}
+footer {
+    margin-top: 2%;
+    vertical-align: bottom;
+    width: 65%;
+    margin-left: 12%;
+    background-image: linear-gradient(to right,lightskyblue,lightgreen);
+}
+footer ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 25%;
+}
+footer li{
+    color: white;
+}
+footer div {
+    text-align: center;
+}

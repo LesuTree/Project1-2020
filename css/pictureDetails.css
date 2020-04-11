@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-image: linear-gradient(to right, #ff5b58,dodgerblue);
+}
+.nav-ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-image:linear-gradient(to right,red,dodgerblue) ;
+    height: 50px;
+}
+.nav-ul li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+.nav-ul li:last-child{
+    border-right: none;
+}
+.nav-ul li>a:hover{
+    background-color: #2eff67;
+}
+.nav-ul li>a{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.two-menu {
+    display: none;
+    width: 80px;
+    list-style-type: none;
+}
+.two-menu li{
+    color: black;
+}
+.nav-ul li:hover .two-menu{
+    display: block;
+}
+.title {
+    margin-top: 5%;
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: 30px;
+}
+.title h1{
+    font-size: 2.5vw;
+    font-family: "Ink Free",sans-serif;
+}
+.picture-details {
+    margin-top: 5%;
+    margin-left: 15%;
+    width: 100%;
+}
+.picture-show {
+    width: 20%;
+    display: inline-block;
+}
+.picture-show img {
+    width: 80%;
+    height: auto;
+}
+.details {
+    vertical-align: top;
+    display: inline-block;
+    width: 70%;
+    margin-right: 5%;
+}
+.Like-Numbers{
+    width: 50%;
+}
+.Like-Numbers ul{
+    width: 100%;
+    list-style-type: none;
+}
+.Like-Numbers h2{
+    color: indianred;
+    background-color:white;
+    border-bottom: 0.06rem lightgrey solid;
+    border-top-right-radius: 0.6rem;
+    border-top-left-radius: 0.6rem;
+    font-size: 2vw;
+    text-align: center;
+    vertical-align: bottom;
+}
+.Like-Numbers li{
+    text-align: center;
+    width: 100%;
+    font-size: 2.0vw;
+    color: red;
+    background-color: white;
+}
+.Like-Numbers li>img{
+    vertical-align: bottom;
+    width: 50px;
+}
+.Like-details {
+    width: 50%;
+}
+.Like-details ul{
+    list-style-type: none;
+    width: 100%;
+}
+.Like-details h2{
+    color: indianred;
+    background-color:white;
+    font-size: 2vw;
+    text-align: center;
+    vertical-align: bottom;
+}
+.Like-details li{
+    text-align: center;
+    width: 100%;
+    font-size: 2.0vw;
+    color: dodgerblue;
+    background-color: white;
+}
+.description {
+    width: 50%;
+    background-color: white;
+    border-radius: 6em;
+    border: 1px solid white;
+    margin-left: 15%;
+    margin-top: 2%;
+    font-family: "Ink Free",sans-serif;
+}
+.description p{
+    text-align: center;
+}
+.description img{
+    width: 50px;
+    height: auto;
+    display: inline-block;
+}
+.description h2{
+    vertical-align: text-top;
+    display: inline-block;
+}
+.main {
+    border-radius: 10em;
+    border: 1px solid white;
+    margin-top: 5%;
+    background-image: linear-gradient(to right,mediumvioletred,deepskyblue);
+}
+footer {
+    margin-top: 2%;
+    vertical-align: bottom;
+    width: 80%;
+    margin-left: 12%;
+    background-image: linear-gradient(to right,lightskyblue,lightgreen);
+}
+footer ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 25%;
+}
+footer li{
+    color: white;
+}
+footer div {
+    text-align: center;
+}

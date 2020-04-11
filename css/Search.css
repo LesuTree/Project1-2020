@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-image: linear-gradient(to right, #ff5b58,dodgerblue);
+}
+.nav-ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-image:linear-gradient(to right,red,dodgerblue) ;
+    height: 50px;
+}
+.nav-ul li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+.nav-ul li:last-child{
+    border-right: none;
+}
+.nav-ul li>a:hover{
+    background-color: #2eff67;
+}
+.nav-ul li>a{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.two-menu {
+    display: none;
+    width: 80px;
+    list-style-type: none;
+}
+.two-menu li{
+    color: black;
+}
+.nav-ul li:hover .two-menu{
+    display: block;
+}
+section{
+    padding-top:5%;
+    width: 80%;
+
+}
+fieldset{
+    margin-left: 15%;
+    margin-right: auto;
+    width: 90%;
+    border: #f0248d 0.06rem solid;
+    border-radius: 0.8rem;
+    padding-bottom: 2%;
+}
+.div-search{
+    width: 70%;
+    display: inline-block;
+}
+.SearchArea label{
+    width: 100%;
+    font-size: 1.8vw;
+    margin-left: 4%;
+}
+input[type="submit"]{
+    font-size: 1.3vw;
+    font-weight: bold;
+    color:indianred;
+    border-radius: 0.6em;
+    width: 20%;
+}
+input[type="text"]{
+    height: 1.3vw;
+    width:50%;
+    border-radius: 0.6em;
+}
+.SearchResult{
+    width: 80%;
+}
+.div-block{
+    margin-top: 5%;
+    margin-left: 15%;
+    width: 100%;
+    height: 250px;
+    border-radius: 0.6em;
+    border: 1px solid;
+}
+.Searched-image {
+    width: 20%;
+    display: inline-block;
+}
+.Searched-image img{
+    height: 250px;
+    width: auto;
+}
+.Searched-description{
+    width: 70%;
+    height: 100%;
+    margin-left: 5%;
+    display: inline-block;
+    margin-bottom: 20%;
+    vertical-align: top;
+}
+.Searched-description div{
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-indent: 2em;
+    font-size: 1.7vw;
+}
+.choose-page {
+    adding-bottom: 1%;
+    text-align: center;
+    vertical-align: top;
+}
+.choose-page image{
+    width: 2%;
+}
+.choose-page small{
+    font-size: 1.7vw;
+}
+.choose-page big {
+    font-size: 2.0vw;
+}
+footer {
+    margin-top: 2%;
+    vertical-align: bottom;
+    width: 80%;
+    margin-left: 12%;
+    background-image: linear-gradient(to right,lightskyblue,lightgreen);
+}
+footer ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 25%;
+}
+footer li{
+    color: white;
+}
+footer div {
+    text-align: center;
+}

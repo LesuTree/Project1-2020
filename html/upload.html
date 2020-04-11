@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/upload.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+<!--导航栏-->
+<nav class="navigation">
+    <ul class="nav-ul">
+        <li><a href="../index.html">主页</a> </li>
+        <li><a href="浏览页.html">浏览</a> </li>
+        <li><a href="Search.html">搜索</a> </li>
+        <li style="float: right"><a href="">我的账户</a>
+            <ul class="two-menu">
+                <li><a href="logIn.html">登录</a></li>
+                <li><a href="myPhoto.html">我的喜欢</a></li>
+                <li><a href="myfavorite.html">我的收藏</a></li>
+                <li><a href="upload.html">上传照片</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<div class="post-div">
+       <form method="post">
+           <h2>上传新的照片</h2>
+       <div class="div-upload">
+           <img id="PictureFromUser" src="">
+           <p>No Picture Upload</p>
+       </div>
+           <div class="upload-file">
+               <input type="file" name="upload" id="file" onchange="show(this)">UPLOAD
+           </div>
+       </form>
+</div>
+<ul class="ul-details">
+    <li>
+        <h2>图片标题</h2>
+        <input type="text" name="title">
+    </li>
+    <li>
+        <h2>详情描述</h2>
+        <textarea name="description"></textarea>
+    </li>
+    <li>
+        <h2>国家
+        </h2>
+        <input type="text" name="country">
+    </li>
+    <li>
+        <h2>城市</h2>
+        <input type="text" name="city">
+    </li>
+</ul>
+<div class="div-button">
+<input type="submit" onclick="window.location.href='myPhoto.html';alert('已上传')">
+</div>
+<footer>
+    <ul>
+        <li>
+            使用条款
+        </li>
+        <li>
+            隐私保护
+        </li>
+        <li>
+            Cookie
+        </li>
+    </ul>
+    <ul>
+        <li>
+            关于
+        </li>
+        <li>
+            联系我们
+        </li>
+    </ul>
+    <div>
+        Copyright @ LesuTree.com All Rights Reserved.备案号：为什么还要备案呢？
+    </div>
+</footer>
+</body>
+<script type="text/javascript" src="../js/upload.js"></script>
+</html>

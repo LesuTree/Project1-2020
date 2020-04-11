@@ -1,0 +1,40 @@
+.container {
+     width: 1200px;
+     margin: 0 auto;
+ }
+* {
+    padding: 0;
+    margin: 0;
+}
+.div-select{
+    float: right;
+}
+.search {
+    margin-top: 0px;
+    margin-right: 12px;
+    float: left;
+    width: 150px;
+    height: 60px;
+    color: aliceblue;
+    background-color:#4c5a65;
+    font-size: 18px;
+}
+.picture{
+    text-align: center;
+}
+.nav {
+    height: 60px;
+    background-color: #4c5a65;
+}
+.nav ul{
+    float:left;
+}
+.nav li {
+    float: left;
+    width: 100px;
+    line-height: 60px;
+}
+
+.nav li:hover {
+    background-color: #008cd6;
+}

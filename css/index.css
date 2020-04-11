@@ -1,0 +1,76 @@
+html{
+	background-image: linear-gradient(to right, #ff5b58,dodgerblue);
+}
+.nav-ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: fixed;
+	top:0;
+	width: 100%;
+	background-image:linear-gradient(to right,red,dodgerblue) ;
+	height: 50px;
+}
+.nav-ul li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+.nav-ul li:last-child{
+	border-right: 1px solid #bbb;
+}
+.nav-ul li>a:hover{
+	background-color: #2eff67;
+}
+.nav-ul li>a{
+	display: block;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+.two-menu {
+	display: none;
+	width: 80px;
+	list-style-type: none;
+}
+.two-menu li{
+	color: black;
+}
+.nav-ul li:hover .two-menu{
+	display: block;
+}
+.picture-show {
+	margin-top: 5%;
+	margin-left: 20%;
+}
+.table-show {
+	border-radius: 20px;
+}
+aside {
+	bottom: 10.4%;
+	position: fixed;
+	float:right;
+	margin-left: 85%;
+}
+aside button {
+	width: 65px;
+	display: block;
+	margin: 7%;
+	border-radius: 0.6em;
+}
+footer {
+     width: 63%;
+	margin-left: 20%;
+	background-image: linear-gradient(to right,lightskyblue,lightgreen);
+}
+footer ul{
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 25%;
+}
+footer li{
+	color: white;
+}
+footer div {
+	text-align: center;
+}
